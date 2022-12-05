@@ -1,0 +1,26 @@
+1. Difference between HTTP1.1 vs HTTP2
+
+
+HTTP1.1 
+
+HTTP 1.1 was released in 1997.
+Transfer all the request and response into plain text message.
+The head of line will block all the requests behind until it gets its all resources.
+HTTP 1.1 uses request resource inlining to get multiple pages.
+It compresses data by itself.
+
+
+HTTP2
+HTTP2 was released in 2015.
+Transfers all requests into binary protocol.
+HTTP2 allows multiplexing so one TCP connection is required for multiple requests.
+It uses a push frame by server that collects all multiple pages.
+It uses HPACK for data compression.
+			
+
+
+2.objects and its internal representation in Javascript:
+
+The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
+
+Objects in javaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
